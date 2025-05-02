@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+        {
+            "source": "/countries-explorer",
+            "destination": "/countries-explorer/",
+            "permanent": true
+        }
+    ]
+}
