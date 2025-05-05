@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
       <ThemeProvider>
         <AuthProvider>
-          <div className="min-h-screen flex flex-col bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-200">
+          <div className="min-h-screen flex flex-col bg-gradient-to-br from-blue-50 to-green-50 dark:bg-gradient-to-br dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-gray-100 transition-colors duration-200">
             <Navbar />
             <main className="flex-grow">
               <Routes>
